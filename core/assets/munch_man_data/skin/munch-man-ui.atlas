@@ -1,0 +1,91 @@
+
+munch-man-ui.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+button-selector
+  rotate: false
+  xy: 1, 1
+  size: 45, 27
+  orig: 45, 27
+  offset: 0, 0
+  index: -1
+button-selector-empty
+  rotate: false
+  xy: 295, 224
+  size: 45, 27
+  orig: 45, 27
+  offset: 0, 0
+  index: -1
+font-export
+  rotate: false
+  xy: 1, 30
+  size: 292, 292
+  orig: 292, 292
+  offset: 0, 0
+  index: -1
+font-title-export
+  rotate: false
+  xy: 1, 324
+  size: 682, 682
+  orig: 682, 682
+  offset: 0, 0
+  index: -1
+ms-munch-man
+  rotate: false
+  xy: 366, 287
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+munch-man
+  rotate: false
+  xy: 685, 891
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+scroll-pane-h
+  rotate: false
+  xy: 685, 983
+  size: 75, 23
+  split: 12, 12, 0, 0
+  pad: 0, 0, 0, 0
+  orig: 75, 23
+  offset: 0, 0
+  index: -1
+scroll-pane-v
+  rotate: false
+  xy: 295, 147
+  size: 23, 75
+  split: 0, 0, 13, 12
+  pad: 0, 0, 0, 0
+  orig: 23, 75
+  offset: 0, 0
+  index: -1
+title-label-bg
+  rotate: false
+  xy: 295, 253
+  size: 69, 69
+  split: 13, 13, 13, 13
+  pad: 25, 24, 25, 24
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 762, 1005
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 685, 927
+  size: 54, 54
+  split: 9, 9, 9, 9
+  pad: 11, 11, 11, 11
+  orig: 54, 54
+  offset: 0, 0
+  index: -1

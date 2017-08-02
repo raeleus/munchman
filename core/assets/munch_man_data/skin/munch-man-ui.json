@@ -1,0 +1,133 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	font: {
+		file: font-export.fnt
+	}
+	title: {
+		file: font-title-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	bg: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	disabled: {
+		r: 0.14333333
+		g: 0.14333333
+		b: 0.14333333
+		a: 1
+	}
+	selected: {
+		r: 1
+		g: 0
+		b: 1
+		a: 1
+	}
+	stage-background: {
+		r: 0
+		g: 0
+		b: 0
+		a: 0.9533333
+	}
+	text-selection: {
+		r: 0
+		g: 0.4099996
+		b: 1
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	selected: {
+		name: white
+		color: selected
+	}
+	bg: {
+		name: white
+		color: bg
+	}
+	text-selection: {
+		name: white
+		color: text-selection
+	}
+	stage-background: {
+		name: white
+		color: stage-background
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+	default: {
+		imageUp: button-selector-empty
+		imageOver: button-selector
+		font: font
+	}
+	list: {
+		font: font
+		checked: selected
+	}
+	munch-man: {
+		imageUp: munch-man
+		font: font
+		checked: selected
+	}
+	ms-munch-man: {
+		imageUp: ms-munch-man
+		font: font
+		checked: selected
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+		fontColor: white
+	}
+	title: {
+		font: title
+		background: title-label-bg
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		hScrollKnob: scroll-pane-h
+		vScrollKnob: scroll-pane-v
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: font
+		fontColor: white
+		overFontColor: selected
+		disabledFontColor: disabled
+		up: window
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: font
+		fontColor: white
+		background: window
+		cursor: white
+		selection: text-selection
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: window
+		titleFont: font
+		stageBackground: stage-background
+	}
+}
+}
